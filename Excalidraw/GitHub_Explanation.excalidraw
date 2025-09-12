@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1001,
+      "version": 2,
+      "versionNonce": 1734271771,
       "isDeleted": false,
       "id": "main-title",
       "fillStyle": "solid",
@@ -26,7 +26,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -37,12 +37,14 @@
       "containerId": null,
       "originalText": "GitHub for Beginners",
       "lineHeight": 1.25,
-      "baseline": 34
+      "baseline": 34,
+      "index": "a0",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1002,
+      "version": 15,
+      "versionNonce": 193164571,
       "isDeleted": false,
       "id": "subtitle",
       "fillStyle": "solid",
@@ -51,18 +53,18 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 250,
+      "x": 161.26495000873888,
       "y": 80,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
-      "width": 500,
-      "height": 24,
+      "width": 588.7350499912611,
+      "height": 22.5,
       "seed": 1002,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635324906,
       "link": null,
       "locked": false,
       "fontSize": 18,
@@ -73,12 +75,14 @@
       "containerId": null,
       "originalText": "A Complete Guide to Code Hosting and Version Control",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "a1",
+      "autoResize": false
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1003,
+      "version": 4,
+      "versionNonce": 2136350805,
       "isDeleted": false,
       "id": "what-is-github-box",
       "fillStyle": "solid",
@@ -87,14 +91,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 50,
-      "y": 140,
+      "x": 50.006380603292655,
+      "y": 140.20417930536564,
       "strokeColor": "#1971c2",
       "backgroundColor": "#e3f2fd",
       "width": 350,
       "height": 160,
       "seed": 1003,
-      "groupIds": ["what-is-github"],
+      "groupIds": [
+        "what-is-github"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -105,14 +111,15 @@
           "id": "what-is-github-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635344272,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "a2"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1004,
+      "version": 4,
+      "versionNonce": 213470645,
       "isDeleted": false,
       "id": "what-is-github-title",
       "fillStyle": "solid",
@@ -121,18 +128,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 175,
-      "y": 155,
+      "x": 175.00638060329265,
+      "y": 155.20417930536564,
       "strokeColor": "#1971c2",
       "backgroundColor": "transparent",
       "width": 100,
       "height": 24,
       "seed": 1004,
-      "groupIds": ["what-is-github"],
+      "groupIds": [
+        "what-is-github"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635344272,
       "link": null,
       "locked": false,
       "fontSize": 18,
@@ -143,12 +152,14 @@
       "containerId": "what-is-github-box",
       "originalText": "What is GitHub?",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "a3",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1005,
+      "version": 4,
+      "versionNonce": 1410322197,
       "isDeleted": false,
       "id": "what-is-github-content",
       "fillStyle": "solid",
@@ -157,18 +168,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 70,
-      "y": 190,
+      "x": 70.00638060329265,
+      "y": 190.20417930536564,
       "strokeColor": "#343a40",
       "backgroundColor": "transparent",
       "width": 310,
       "height": 90,
       "seed": 1005,
-      "groupIds": ["what-is-github"],
+      "groupIds": [
+        "what-is-github"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635344272,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -179,12 +192,14 @@
       "containerId": null,
       "originalText": "• A cloud-based platform to store code\n• Uses Git for version control\n• Allows collaboration with other developers\n• Tracks changes to your code over time\n• Free for public projects",
       "lineHeight": 1.25,
-      "baseline": 83
+      "baseline": 83,
+      "index": "a4",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1006,
+      "version": 3,
+      "versionNonce": 1606208981,
       "isDeleted": false,
       "id": "key-concepts-box",
       "fillStyle": "solid",
@@ -193,14 +208,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 450,
+      "x": 450.14037327243886,
       "y": 140,
       "strokeColor": "#2f9e44",
       "backgroundColor": "#d3f9d8",
       "width": 500,
       "height": 300,
       "seed": 1006,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -211,14 +228,15 @@
           "id": "key-concepts-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "a5"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1007,
+      "version": 3,
+      "versionNonce": 1458457397,
       "isDeleted": false,
       "id": "key-concepts-title",
       "fillStyle": "solid",
@@ -227,18 +245,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 650,
+      "x": 650.1403732724389,
       "y": 155,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
       "width": 100,
       "height": 24,
       "seed": 1007,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
       "locked": false,
       "fontSize": 18,
@@ -249,12 +269,14 @@
       "containerId": "key-concepts-box",
       "originalText": "Key Concepts",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "a6",
+      "autoResize": true
     },
     {
       "type": "ellipse",
-      "version": 1,
-      "versionNonce": 1008,
+      "version": 3,
+      "versionNonce": 1506352277,
       "isDeleted": false,
       "id": "repository-circle",
       "fillStyle": "solid",
@@ -263,14 +285,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 480,
+      "x": 480.14037327243886,
       "y": 190,
       "strokeColor": "#f08c00",
       "backgroundColor": "#fff4e6",
       "width": 120,
       "height": 60,
       "seed": 1008,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
@@ -281,14 +305,15 @@
           "id": "repository-text"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "a7"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1009,
+      "version": 3,
+      "versionNonce": 1342358005,
       "isDeleted": false,
       "id": "repository-text",
       "fillStyle": "solid",
@@ -297,18 +322,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 520,
+      "x": 520.1403732724389,
       "y": 210,
       "strokeColor": "#f08c00",
       "backgroundColor": "transparent",
       "width": 40,
       "height": 20,
       "seed": 1009,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -319,12 +346,14 @@
       "containerId": "repository-circle",
       "originalText": "Repository",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 14,
+      "index": "a8",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1010,
+      "version": 3,
+      "versionNonce": 245414741,
       "isDeleted": false,
       "id": "repository-desc",
       "fillStyle": "solid",
@@ -333,18 +362,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 610,
+      "x": 610.1403732724389,
       "y": 195,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 180,
       "height": 50,
       "seed": 1010,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -355,12 +386,14 @@
       "containerId": null,
       "originalText": "A folder that contains your\nproject files and tracks\ntheir history",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "a9",
+      "autoResize": true
     },
     {
       "type": "ellipse",
-      "version": 1,
-      "versionNonce": 1011,
+      "version": 3,
+      "versionNonce": 771262645,
       "isDeleted": false,
       "id": "commit-circle",
       "fillStyle": "solid",
@@ -369,14 +402,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 480,
+      "x": 480.14037327243886,
       "y": 270,
       "strokeColor": "#e03131",
       "backgroundColor": "#ffe3e3",
       "width": 120,
       "height": 60,
       "seed": 1011,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
@@ -387,14 +422,15 @@
           "id": "commit-text"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aA"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1012,
+      "version": 3,
+      "versionNonce": 531606037,
       "isDeleted": false,
       "id": "commit-text",
       "fillStyle": "solid",
@@ -403,18 +439,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 525,
+      "x": 525.1403732724389,
       "y": 290,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 30,
       "height": 20,
       "seed": 1012,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -425,12 +463,14 @@
       "containerId": "commit-circle",
       "originalText": "Commit",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 14,
+      "index": "aB",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1013,
+      "version": 3,
+      "versionNonce": 79404917,
       "isDeleted": false,
       "id": "commit-desc",
       "fillStyle": "solid",
@@ -439,18 +479,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 610,
+      "x": 610.1403732724389,
       "y": 275,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 180,
       "height": 50,
       "seed": 1013,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -461,12 +503,14 @@
       "containerId": null,
       "originalText": "A snapshot of your code\nat a specific point in time.\nLike saving your progress!",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "aC",
+      "autoResize": true
     },
     {
       "type": "ellipse",
-      "version": 1,
-      "versionNonce": 1014,
+      "version": 3,
+      "versionNonce": 1130490069,
       "isDeleted": false,
       "id": "branch-circle",
       "fillStyle": "solid",
@@ -475,14 +519,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 480,
+      "x": 480.14037327243886,
       "y": 350,
       "strokeColor": "#7950f2",
       "backgroundColor": "#f3f0ff",
       "width": 120,
       "height": 60,
       "seed": 1014,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
@@ -493,14 +539,15 @@
           "id": "branch-text"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aD"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1015,
+      "version": 3,
+      "versionNonce": 1563952693,
       "isDeleted": false,
       "id": "branch-text",
       "fillStyle": "solid",
@@ -509,18 +556,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 525,
+      "x": 525.1403732724389,
       "y": 370,
       "strokeColor": "#7950f2",
       "backgroundColor": "transparent",
       "width": 30,
       "height": 20,
       "seed": 1015,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -531,12 +580,14 @@
       "containerId": "branch-circle",
       "originalText": "Branch",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 14,
+      "index": "aE",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1016,
+      "version": 3,
+      "versionNonce": 86210453,
       "isDeleted": false,
       "id": "branch-desc",
       "fillStyle": "solid",
@@ -545,18 +596,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 610,
+      "x": 610.1403732724389,
       "y": 355,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 180,
       "height": 50,
       "seed": 1016,
-      "groupIds": ["key-concepts"],
+      "groupIds": [
+        "key-concepts"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635345793,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -567,12 +620,14 @@
       "containerId": null,
       "originalText": "A parallel version of your\ncode. Work on new features\nwithout breaking main code",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "aF",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1017,
+      "version": 2,
+      "versionNonce": 1229314075,
       "isDeleted": false,
       "id": "workflow-title-box",
       "fillStyle": "solid",
@@ -588,7 +643,9 @@
       "width": 900,
       "height": 50,
       "seed": 1017,
-      "groupIds": ["workflow-section"],
+      "groupIds": [
+        "workflow-section"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -599,14 +656,15 @@
           "id": "workflow-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aG"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1018,
+      "version": 2,
+      "versionNonce": 951552789,
       "isDeleted": false,
       "id": "workflow-title",
       "fillStyle": "solid",
@@ -622,11 +680,13 @@
       "width": 200,
       "height": 20,
       "seed": 1018,
-      "groupIds": ["workflow-section"],
+      "groupIds": [
+        "workflow-section"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 24,
@@ -637,12 +697,14 @@
       "containerId": "workflow-title-box",
       "originalText": "GitHub Workflow",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "aH",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1019,
+      "version": 12,
+      "versionNonce": 2138568405,
       "isDeleted": false,
       "id": "step1-box",
       "fillStyle": "solid",
@@ -651,14 +713,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 50,
-      "y": 570,
+      "x": 49.884346773495565,
+      "y": 570.1423424326208,
       "strokeColor": "#1971c2",
       "backgroundColor": "#e3f2fd",
       "width": 150,
       "height": 80,
       "seed": 1019,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -673,14 +737,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635354603,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aI"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1020,
+      "version": 20,
+      "versionNonce": 676138805,
       "isDeleted": false,
       "id": "step1-text",
       "fillStyle": "solid",
@@ -689,21 +754,23 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 90,
-      "y": 590,
+      "x": 82.54838638531197,
+      "y": 590.1423424326208,
       "strokeColor": "#1971c2",
       "backgroundColor": "transparent",
-      "width": 70,
+      "width": 84.67192077636719,
       "height": 40,
       "seed": 1020,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635364985,
       "link": null,
       "locked": false,
-      "fontSize": 14,
+      "fontSize": 16,
       "fontFamily": 5,
       "text": "1. Create\nRepository",
       "textAlign": "center",
@@ -711,12 +778,14 @@
       "containerId": "step1-box",
       "originalText": "1. Create\nRepository",
       "lineHeight": 1.25,
-      "baseline": 33
+      "baseline": 33,
+      "index": "aJ",
+      "autoResize": true
     },
     {
       "type": "arrow",
-      "version": 1,
-      "versionNonce": 1021,
+      "version": 18,
+      "versionNonce": 1099826581,
       "isDeleted": false,
       "id": "arrow1",
       "fillStyle": "solid",
@@ -725,20 +794,22 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 210,
-      "y": 610,
+      "x": 208.50368892507325,
+      "y": 610.0825287848384,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
-      "width": 40,
-      "height": 0,
+      "width": 42.77466029990282,
+      "height": 0.028626804569285014,
       "seed": 1021,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635354603,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -755,14 +826,21 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "points": [
-        [0, 0],
-        [40, 0]
-      ]
+        [
+          0,
+          0
+        ],
+        [
+          42.77466029990282,
+          -0.028626804569285014
+        ]
+      ],
+      "index": "aK"
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1022,
+      "version": 4,
+      "versionNonce": 708908565,
       "isDeleted": false,
       "id": "step2-box",
       "fillStyle": "solid",
@@ -771,14 +849,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 260,
+      "x": 259.8976913765538,
       "y": 570,
       "strokeColor": "#2f9e44",
       "backgroundColor": "#d3f9d8",
       "width": 150,
       "height": 80,
       "seed": 1022,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -797,14 +877,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635352189,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aL"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1023,
+      "version": 6,
+      "versionNonce": 1205161141,
       "isDeleted": false,
       "id": "step2-text",
       "fillStyle": "solid",
@@ -813,21 +894,23 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 300,
+      "x": 291.34572757040144,
       "y": 590,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
-      "width": 70,
+      "width": 87.10392761230469,
       "height": 40,
       "seed": 1023,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635390793,
       "link": null,
       "locked": false,
-      "fontSize": 14,
+      "fontSize": 16,
       "fontFamily": 5,
       "text": "2. Clone to\nLocal",
       "textAlign": "center",
@@ -835,12 +918,14 @@
       "containerId": "step2-box",
       "originalText": "2. Clone to\nLocal",
       "lineHeight": 1.25,
-      "baseline": 33
+      "baseline": 33,
+      "index": "aM",
+      "autoResize": true
     },
     {
       "type": "arrow",
-      "version": 1,
-      "versionNonce": 1024,
+      "version": 10,
+      "versionNonce": 196654811,
       "isDeleted": false,
       "id": "arrow2",
       "fillStyle": "solid",
@@ -849,20 +934,22 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 420,
+      "x": 419.8976913765538,
       "y": 610,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 40,
       "height": 0,
       "seed": 1024,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635352211,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -879,14 +966,21 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "points": [
-        [0, 0],
-        [40, 0]
-      ]
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ]
+      ],
+      "index": "aN"
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1025,
+      "version": 4,
+      "versionNonce": 461875445,
       "isDeleted": false,
       "id": "step3-box",
       "fillStyle": "solid",
@@ -895,14 +989,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 470,
+      "x": 469.8976913765538,
       "y": 570,
       "strokeColor": "#f08c00",
       "backgroundColor": "#fff4e6",
       "width": 150,
       "height": 80,
       "seed": 1025,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -921,14 +1017,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635352189,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aO"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1026,
+      "version": 4,
+      "versionNonce": 116441685,
       "isDeleted": false,
       "id": "step3-text",
       "fillStyle": "solid",
@@ -937,18 +1034,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 505,
+      "x": 504.8976913765538,
       "y": 590,
       "strokeColor": "#f08c00",
       "backgroundColor": "transparent",
       "width": 80,
       "height": 40,
       "seed": 1026,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635352189,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -959,12 +1058,14 @@
       "containerId": "step3-box",
       "originalText": "3. Make\nChanges",
       "lineHeight": 1.25,
-      "baseline": 33
+      "baseline": 33,
+      "index": "aP",
+      "autoResize": true
     },
     {
       "type": "arrow",
-      "version": 1,
-      "versionNonce": 1027,
+      "version": 10,
+      "versionNonce": 1765211163,
       "isDeleted": false,
       "id": "arrow3",
       "fillStyle": "solid",
@@ -973,20 +1074,22 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 630,
+      "x": 629.8976913765538,
       "y": 610,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 40,
       "height": 0,
       "seed": 1027,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635352212,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -1003,14 +1106,21 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "points": [
-        [0, 0],
-        [40, 0]
-      ]
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          0
+        ]
+      ],
+      "index": "aQ"
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1028,
+      "version": 4,
+      "versionNonce": 469135317,
       "isDeleted": false,
       "id": "step4-box",
       "fillStyle": "solid",
@@ -1019,14 +1129,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 680,
+      "x": 679.8976913765538,
       "y": 570,
       "strokeColor": "#e03131",
       "backgroundColor": "#ffe3e3",
       "width": 150,
       "height": 80,
       "seed": 1028,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -1045,14 +1157,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635352189,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aR"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1029,
+      "version": 4,
+      "versionNonce": 1604562229,
       "isDeleted": false,
       "id": "step4-text",
       "fillStyle": "solid",
@@ -1061,18 +1174,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 715,
+      "x": 714.8976913765538,
       "y": 580,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 80,
       "height": 60,
       "seed": 1029,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635352189,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -1083,12 +1198,14 @@
       "containerId": "step4-box",
       "originalText": "4. Commit\n& Push",
       "lineHeight": 1.25,
-      "baseline": 53
+      "baseline": 53,
+      "index": "aS",
+      "autoResize": true
     },
     {
       "type": "arrow",
-      "version": 1,
-      "versionNonce": 1030,
+      "version": 10,
+      "versionNonce": 827650395,
       "isDeleted": false,
       "id": "arrow4",
       "fillStyle": "solid",
@@ -1097,20 +1214,22 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 755,
+      "x": 754.8976913765538,
       "y": 660,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 0,
       "height": 40,
       "seed": 1030,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635352212,
       "link": null,
       "locked": false,
       "startBinding": {
@@ -1127,14 +1246,21 @@
       "startArrowhead": null,
       "endArrowhead": "arrow",
       "points": [
-        [0, 0],
-        [0, 40]
-      ]
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "index": "aT"
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1031,
+      "version": 4,
+      "versionNonce": 669838005,
       "isDeleted": false,
       "id": "step5-box",
       "fillStyle": "solid",
@@ -1143,14 +1269,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 680,
+      "x": 679.8976913765538,
       "y": 710,
       "strokeColor": "#7950f2",
       "backgroundColor": "#f3f0ff",
       "width": 150,
       "height": 80,
       "seed": 1031,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -1165,14 +1293,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635352189,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aU"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1032,
+      "version": 4,
+      "versionNonce": 1623706645,
       "isDeleted": false,
       "id": "step5-text",
       "fillStyle": "solid",
@@ -1181,18 +1310,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 710,
+      "x": 709.8976913765538,
       "y": 730,
       "strokeColor": "#7950f2",
       "backgroundColor": "transparent",
       "width": 90,
       "height": 40,
       "seed": 1032,
-      "groupIds": ["workflow"],
+      "groupIds": [
+        "workflow"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635352189,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -1203,12 +1334,14 @@
       "containerId": "step5-box",
       "originalText": "5. Create\nPull Request",
       "lineHeight": 1.25,
-      "baseline": 33
+      "baseline": 33,
+      "index": "aV",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1033,
+      "version": 2,
+      "versionNonce": 1294454043,
       "isDeleted": false,
       "id": "local-vs-github-box",
       "fillStyle": "solid",
@@ -1224,7 +1357,9 @@
       "width": 900,
       "height": 200,
       "seed": 1033,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -1235,14 +1370,15 @@
           "id": "local-github-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aW"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1034,
+      "version": 2,
+      "versionNonce": 1406887445,
       "isDeleted": false,
       "id": "local-github-title",
       "fillStyle": "solid",
@@ -1258,11 +1394,13 @@
       "width": 300,
       "height": 24,
       "seed": 1034,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1273,12 +1411,14 @@
       "containerId": "local-vs-github-box",
       "originalText": "Local Development vs GitHub",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "aX",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1035,
+      "version": 2,
+      "versionNonce": 1988456891,
       "isDeleted": false,
       "id": "local-box",
       "fillStyle": "solid",
@@ -1294,7 +1434,9 @@
       "width": 350,
       "height": 100,
       "seed": 1035,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -1305,14 +1447,15 @@
           "id": "local-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aY"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1036,
+      "version": 2,
+      "versionNonce": 873454453,
       "isDeleted": false,
       "id": "local-title",
       "fillStyle": "solid",
@@ -1328,11 +1471,13 @@
       "width": 70,
       "height": 18,
       "seed": 1036,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -1343,12 +1488,14 @@
       "containerId": "local-box",
       "originalText": "Local (Your Computer)",
       "lineHeight": 1.25,
-      "baseline": 12
+      "baseline": 12,
+      "index": "aZ",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1037,
+      "version": 2,
+      "versionNonce": 973439579,
       "isDeleted": false,
       "id": "local-content",
       "fillStyle": "solid",
@@ -1364,11 +1511,13 @@
       "width": 310,
       "height": 50,
       "seed": 1037,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1379,12 +1528,14 @@
       "containerId": null,
       "originalText": "• Where you write and edit code\n• Use Git commands: git add, git commit, git push\n• Work offline, test changes locally",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "aa",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1038,
+      "version": 2,
+      "versionNonce": 1959699669,
       "isDeleted": false,
       "id": "github-box",
       "fillStyle": "solid",
@@ -1400,7 +1551,9 @@
       "width": 350,
       "height": 100,
       "seed": 1038,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -1411,14 +1564,15 @@
           "id": "github-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "ab"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1039,
+      "version": 2,
+      "versionNonce": 8027899,
       "isDeleted": false,
       "id": "github-title",
       "fillStyle": "solid",
@@ -1434,11 +1588,13 @@
       "width": 80,
       "height": 18,
       "seed": 1039,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -1449,12 +1605,14 @@
       "containerId": "github-box",
       "originalText": "GitHub (Cloud)",
       "lineHeight": 1.25,
-      "baseline": 12
+      "baseline": 12,
+      "index": "ac",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1040,
+      "version": 2,
+      "versionNonce": 967655989,
       "isDeleted": false,
       "id": "github-content",
       "fillStyle": "solid",
@@ -1470,11 +1628,13 @@
       "width": 310,
       "height": 50,
       "seed": 1040,
-      "groupIds": ["local-github"],
+      "groupIds": [
+        "local-github"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1485,12 +1645,14 @@
       "containerId": null,
       "originalText": "• Stores your code in the cloud\n• Backup, sharing, collaboration\n• Web interface for managing projects",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "ad",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1041,
+      "version": 3,
+      "versionNonce": 76250325,
       "isDeleted": false,
       "id": "commands-box",
       "fillStyle": "solid",
@@ -1499,14 +1661,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 50,
+      "x": 50.14037327243898,
       "y": 1080,
       "strokeColor": "#e03131",
       "backgroundColor": "#ffe3e3",
       "width": 900,
       "height": 250,
       "seed": 1041,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -1517,14 +1681,15 @@
           "id": "commands-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "ae"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1042,
+      "version": 3,
+      "versionNonce": 1812929077,
       "isDeleted": false,
       "id": "commands-title",
       "fillStyle": "solid",
@@ -1533,18 +1698,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 400,
+      "x": 400.140373272439,
       "y": 1100,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 200,
       "height": 24,
       "seed": 1042,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1555,12 +1722,14 @@
       "containerId": "commands-box",
       "originalText": "Essential Git Commands",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "af",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1043,
+      "version": 3,
+      "versionNonce": 1341655957,
       "isDeleted": false,
       "id": "cmd1-box",
       "fillStyle": "solid",
@@ -1569,27 +1738,30 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 80,
+      "x": 80.14037327243898,
       "y": 1140,
       "strokeColor": "#1971c2",
       "backgroundColor": "#ffffff",
       "width": 180,
       "height": 70,
       "seed": 1043,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "ag"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1044,
+      "version": 3,
+      "versionNonce": 544985333,
       "isDeleted": false,
       "id": "cmd1-text",
       "fillStyle": "solid",
@@ -1598,18 +1770,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 90,
+      "x": 90.14037327243898,
       "y": 1150,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 50,
       "seed": 1044,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1620,12 +1794,14 @@
       "containerId": null,
       "originalText": "git clone <url>\nDownload repository\nfrom GitHub",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "ah",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1045,
+      "version": 3,
+      "versionNonce": 723511893,
       "isDeleted": false,
       "id": "cmd2-box",
       "fillStyle": "solid",
@@ -1634,27 +1810,30 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 280,
+      "x": 280.140373272439,
       "y": 1140,
       "strokeColor": "#2f9e44",
       "backgroundColor": "#ffffff",
       "width": 180,
       "height": 70,
       "seed": 1045,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "ai"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1046,
+      "version": 3,
+      "versionNonce": 1891227573,
       "isDeleted": false,
       "id": "cmd2-text",
       "fillStyle": "solid",
@@ -1663,18 +1842,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 290,
+      "x": 290.140373272439,
       "y": 1150,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 50,
       "seed": 1046,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1685,12 +1866,14 @@
       "containerId": null,
       "originalText": "git add .\nStage all changes\nfor commit",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "aj",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1047,
+      "version": 3,
+      "versionNonce": 997136661,
       "isDeleted": false,
       "id": "cmd3-box",
       "fillStyle": "solid",
@@ -1699,27 +1882,30 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 480,
+      "x": 480.140373272439,
       "y": 1140,
       "strokeColor": "#f08c00",
       "backgroundColor": "#ffffff",
       "width": 180,
       "height": 70,
       "seed": 1047,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "ak"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1048,
+      "version": 3,
+      "versionNonce": 1958030965,
       "isDeleted": false,
       "id": "cmd3-text",
       "fillStyle": "solid",
@@ -1728,18 +1914,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 490,
+      "x": 490.140373272439,
       "y": 1150,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 50,
       "seed": 1048,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1750,12 +1938,14 @@
       "containerId": null,
       "originalText": "git commit -m \"message\"\nSave changes with\ndescriptive message",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "al",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1049,
+      "version": 3,
+      "versionNonce": 995203029,
       "isDeleted": false,
       "id": "cmd4-box",
       "fillStyle": "solid",
@@ -1764,27 +1954,30 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 680,
+      "x": 680.140373272439,
       "y": 1140,
       "strokeColor": "#7950f2",
       "backgroundColor": "#ffffff",
       "width": 180,
       "height": 70,
       "seed": 1049,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "am"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1050,
+      "version": 3,
+      "versionNonce": 962188597,
       "isDeleted": false,
       "id": "cmd4-text",
       "fillStyle": "solid",
@@ -1793,18 +1986,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 690,
+      "x": 690.140373272439,
       "y": 1150,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 50,
       "seed": 1050,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1815,12 +2010,14 @@
       "containerId": null,
       "originalText": "git push\nUpload changes\nto GitHub",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "an",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1051,
+      "version": 3,
+      "versionNonce": 976447125,
       "isDeleted": false,
       "id": "cmd5-box",
       "fillStyle": "solid",
@@ -1829,27 +2026,30 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 180,
+      "x": 180.14037327243898,
       "y": 1240,
       "strokeColor": "#d6336c",
       "backgroundColor": "#ffffff",
       "width": 180,
       "height": 70,
       "seed": 1051,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "ao"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1052,
+      "version": 3,
+      "versionNonce": 9686005,
       "isDeleted": false,
       "id": "cmd5-text",
       "fillStyle": "solid",
@@ -1858,18 +2058,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 190,
+      "x": 190.14037327243898,
       "y": 1250,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 50,
       "seed": 1052,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1880,12 +2082,14 @@
       "containerId": null,
       "originalText": "git checkout -b <name>\nCreate new branch\nfor features",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "ap",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1053,
+      "version": 3,
+      "versionNonce": 1551926613,
       "isDeleted": false,
       "id": "cmd6-box",
       "fillStyle": "solid",
@@ -1894,27 +2098,30 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 380,
+      "x": 380.140373272439,
       "y": 1240,
       "strokeColor": "#1098ad",
       "backgroundColor": "#ffffff",
       "width": 180,
       "height": 70,
       "seed": 1053,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
       },
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "aq"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1054,
+      "version": 3,
+      "versionNonce": 21959349,
       "isDeleted": false,
       "id": "cmd6-text",
       "fillStyle": "solid",
@@ -1923,18 +2130,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 390,
+      "x": 390.140373272439,
       "y": 1250,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 50,
       "seed": 1054,
-      "groupIds": ["commands"],
+      "groupIds": [
+        "commands"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635328878,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -1945,12 +2154,14 @@
       "containerId": null,
       "originalText": "git pull\nDownload latest\nchanges from GitHub",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "ar",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1055,
+      "version": 4,
+      "versionNonce": 540421685,
       "isDeleted": false,
       "id": "collaboration-box",
       "fillStyle": "solid",
@@ -1959,14 +2170,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 50,
+      "x": 49.8671875,
       "y": 1380,
       "strokeColor": "#7950f2",
       "backgroundColor": "#f3f0ff",
       "width": 900,
       "height": 180,
       "seed": 1055,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -1977,14 +2190,15 @@
           "id": "collaboration-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "as"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1056,
+      "version": 4,
+      "versionNonce": 370974613,
       "isDeleted": false,
       "id": "collaboration-title",
       "fillStyle": "solid",
@@ -1993,18 +2207,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 420,
+      "x": 419.8671875,
       "y": 1400,
       "strokeColor": "#7950f2",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 24,
       "seed": 1056,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -2015,12 +2231,14 @@
       "containerId": "collaboration-box",
       "originalText": "Collaboration Features",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "at",
+      "autoResize": true
     },
     {
       "type": "ellipse",
-      "version": 1,
-      "versionNonce": 1057,
+      "version": 4,
+      "versionNonce": 1559094517,
       "isDeleted": false,
       "id": "fork-circle",
       "fillStyle": "solid",
@@ -2029,14 +2247,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 100,
+      "x": 99.8671875,
       "y": 1450,
       "strokeColor": "#f08c00",
       "backgroundColor": "#fff4e6",
       "width": 100,
       "height": 60,
       "seed": 1057,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
@@ -2047,14 +2267,15 @@
           "id": "fork-text"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "au"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1058,
+      "version": 4,
+      "versionNonce": 942636629,
       "isDeleted": false,
       "id": "fork-text",
       "fillStyle": "solid",
@@ -2063,18 +2284,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 135,
+      "x": 134.8671875,
       "y": 1470,
       "strokeColor": "#f08c00",
       "backgroundColor": "transparent",
       "width": 30,
       "height": 20,
       "seed": 1058,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -2085,12 +2308,14 @@
       "containerId": "fork-circle",
       "originalText": "Fork",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 14,
+      "index": "av",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1059,
+      "version": 4,
+      "versionNonce": 1589046197,
       "isDeleted": false,
       "id": "fork-desc",
       "fillStyle": "solid",
@@ -2099,18 +2324,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 70,
+      "x": 69.8671875,
       "y": 1520,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 25,
       "seed": 1059,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 11,
@@ -2121,12 +2348,14 @@
       "containerId": null,
       "originalText": "Copy someone's repository\nto your account",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 19,
+      "index": "aw",
+      "autoResize": true
     },
     {
       "type": "ellipse",
-      "version": 1,
-      "versionNonce": 1060,
+      "version": 4,
+      "versionNonce": 279555349,
       "isDeleted": false,
       "id": "pr-circle",
       "fillStyle": "solid",
@@ -2135,14 +2364,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 300,
+      "x": 299.8671875,
       "y": 1450,
       "strokeColor": "#2f9e44",
       "backgroundColor": "#d3f9d8",
       "width": 120,
       "height": 60,
       "seed": 1060,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
@@ -2153,14 +2384,15 @@
           "id": "pr-text"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "ax"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1061,
+      "version": 4,
+      "versionNonce": 1836925557,
       "isDeleted": false,
       "id": "pr-text",
       "fillStyle": "solid",
@@ -2169,18 +2401,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 340,
+      "x": 339.8671875,
       "y": 1470,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
       "width": 40,
       "height": 20,
       "seed": 1061,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -2191,12 +2425,14 @@
       "containerId": "pr-circle",
       "originalText": "Pull Request",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 14,
+      "index": "ay",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1062,
+      "version": 4,
+      "versionNonce": 167193557,
       "isDeleted": false,
       "id": "pr-desc",
       "fillStyle": "solid",
@@ -2205,18 +2441,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 280,
+      "x": 279.8671875,
       "y": 1520,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 25,
       "seed": 1062,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 11,
@@ -2227,12 +2465,14 @@
       "containerId": null,
       "originalText": "Request to merge your changes\ninto the main project",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 19,
+      "index": "az",
+      "autoResize": true
     },
     {
       "type": "ellipse",
-      "version": 1,
-      "versionNonce": 1063,
+      "version": 4,
+      "versionNonce": 1177348405,
       "isDeleted": false,
       "id": "issues-circle",
       "fillStyle": "solid",
@@ -2241,14 +2481,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 500,
+      "x": 499.8671875,
       "y": 1450,
       "strokeColor": "#e03131",
       "backgroundColor": "#ffe3e3",
       "width": 100,
       "height": 60,
       "seed": 1063,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
@@ -2259,14 +2501,15 @@
           "id": "issues-text"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "b00"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1064,
+      "version": 4,
+      "versionNonce": 1669593749,
       "isDeleted": false,
       "id": "issues-text",
       "fillStyle": "solid",
@@ -2275,18 +2518,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 535,
+      "x": 534.8671875,
       "y": 1470,
       "strokeColor": "#e03131",
       "backgroundColor": "transparent",
       "width": 30,
       "height": 20,
       "seed": 1064,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -2297,12 +2542,14 @@
       "containerId": "issues-circle",
       "originalText": "Issues",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 14,
+      "index": "b01",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1065,
+      "version": 4,
+      "versionNonce": 1521606645,
       "isDeleted": false,
       "id": "issues-desc",
       "fillStyle": "solid",
@@ -2311,18 +2558,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 470,
+      "x": 469.8671875,
       "y": 1520,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 25,
       "seed": 1065,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 11,
@@ -2333,12 +2582,14 @@
       "containerId": null,
       "originalText": "Track bugs, feature requests\nand discussions",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 19,
+      "index": "b02",
+      "autoResize": true
     },
     {
       "type": "ellipse",
-      "version": 1,
-      "versionNonce": 1066,
+      "version": 4,
+      "versionNonce": 1908152661,
       "isDeleted": false,
       "id": "clone-circle",
       "fillStyle": "solid",
@@ -2347,14 +2598,16 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 700,
+      "x": 699.8671875,
       "y": 1450,
       "strokeColor": "#1098ad",
       "backgroundColor": "#c5f6fa",
       "width": 100,
       "height": 60,
       "seed": 1066,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": {
         "type": 2
@@ -2365,14 +2618,15 @@
           "id": "clone-text"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "b03"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1067,
+      "version": 4,
+      "versionNonce": 301475509,
       "isDeleted": false,
       "id": "clone-text",
       "fillStyle": "solid",
@@ -2381,18 +2635,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 735,
+      "x": 734.8671875,
       "y": 1470,
       "strokeColor": "#1098ad",
       "backgroundColor": "transparent",
       "width": 30,
       "height": 20,
       "seed": 1067,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -2403,12 +2659,14 @@
       "containerId": "clone-circle",
       "originalText": "Clone",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 14,
+      "index": "b04",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1068,
+      "version": 4,
+      "versionNonce": 1577814037,
       "isDeleted": false,
       "id": "clone-desc",
       "fillStyle": "solid",
@@ -2417,18 +2675,20 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 670,
+      "x": 669.8671875,
       "y": 1520,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
       "width": 160,
       "height": 25,
       "seed": 1068,
-      "groupIds": ["collaboration"],
+      "groupIds": [
+        "collaboration"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635311554,
       "link": null,
       "locked": false,
       "fontSize": 11,
@@ -2439,12 +2699,14 @@
       "containerId": null,
       "originalText": "Download a repository\nto your computer",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 19,
+      "index": "b05",
+      "autoResize": true
     },
     {
       "type": "rectangle",
-      "version": 1,
-      "versionNonce": 1069,
+      "version": 2,
+      "versionNonce": 1325919323,
       "isDeleted": false,
       "id": "tips-box",
       "fillStyle": "solid",
@@ -2460,7 +2722,9 @@
       "width": 900,
       "height": 120,
       "seed": 1069,
-      "groupIds": ["tips"],
+      "groupIds": [
+        "tips"
+      ],
       "frameId": null,
       "roundness": {
         "type": 3
@@ -2471,14 +2735,15 @@
           "id": "tips-title"
         }
       ],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
-      "locked": false
+      "locked": false,
+      "index": "b06"
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1070,
+      "version": 2,
+      "versionNonce": 1996479189,
       "isDeleted": false,
       "id": "tips-title",
       "fillStyle": "solid",
@@ -2494,11 +2759,13 @@
       "width": 140,
       "height": 24,
       "seed": 1070,
-      "groupIds": ["tips"],
+      "groupIds": [
+        "tips"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -2509,12 +2776,14 @@
       "containerId": "tips-box",
       "originalText": "Beginner Tips",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 18,
+      "index": "b07",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1071,
+      "version": 2,
+      "versionNonce": 1570744571,
       "isDeleted": false,
       "id": "tips-content",
       "fillStyle": "solid",
@@ -2530,11 +2799,13 @@
       "width": 860,
       "height": 50,
       "seed": 1071,
-      "groupIds": ["tips"],
+      "groupIds": [
+        "tips"
+      ],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 12,
@@ -2545,12 +2816,14 @@
       "containerId": null,
       "originalText": "• Start with small projects • Write clear commit messages • Create branches for new features • Don't work directly on main branch\n• Use descriptive repository names • Add README files to explain your project • Practice with personal repositories first",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 43,
+      "index": "b08",
+      "autoResize": true
     },
     {
       "type": "text",
-      "version": 1,
-      "versionNonce": 1072,
+      "version": 2,
+      "versionNonce": 206026805,
       "isDeleted": false,
       "id": "footer-text",
       "fillStyle": "solid",
@@ -2570,7 +2843,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726157000000,
+      "updated": 1757635301059,
       "link": null,
       "locked": false,
       "fontSize": 14,
@@ -2581,11 +2854,15 @@
       "containerId": null,
       "originalText": "Remember: GitHub is like Google Drive for code!\nYou can always learn more at docs.github.com",
       "lineHeight": 1.25,
-      "baseline": 33
+      "baseline": 33,
+      "index": "b09",
+      "autoResize": true
     }
   ],
   "appState": {
-    "gridSize": null,
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
     "viewBackgroundColor": "#ffffff"
   },
   "files": {}
