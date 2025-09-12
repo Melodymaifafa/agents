@@ -6,8 +6,8 @@
     {
       "id": "document-body",
       "type": "rectangle",
-      "x": 200,
-      "y": 100,
+      "x": 199.546875,
+      "y": 100.2109375,
       "width": 180,
       "height": 240,
       "angle": 0,
@@ -23,17 +23,24 @@
         "value": 8
       },
       "seed": 1001,
-      "groupIds": ["file-icon"],
+      "groupIds": [
+        "file-icon"
+      ],
       "frameId": null,
       "index": "a0",
       "link": null,
-      "locked": false
+      "locked": false,
+      "version": 14,
+      "versionNonce": 882085624,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637325005
     },
     {
       "id": "folded-corner-triangle",
       "type": "line",
-      "x": 355,
-      "y": 100,
+      "x": 354.421875,
+      "y": 125.2109375,
       "width": 25,
       "height": 25,
       "angle": 0,
@@ -46,27 +53,43 @@
       "opacity": 100,
       "roundness": null,
       "seed": 1002,
-      "groupIds": ["file-icon"],
+      "groupIds": [
+        "file-icon"
+      ],
       "frameId": null,
       "index": "a1",
       "link": null,
       "locked": false,
       "points": [
-        [0, 25],
-        [25, 25],
-        [25, 0]
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          25,
+          -25
+        ]
       ],
-      "lastCommittedPoint": [25, 0],
+      "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "version": 12,
+      "versionNonce": 110034424,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "folded-corner-line1",
       "type": "line",
-      "x": 355,
-      "y": 125,
+      "x": 354.421875,
+      "y": 125.2109375,
       "width": 25,
       "height": 0,
       "angle": 0,
@@ -79,26 +102,39 @@
       "opacity": 100,
       "roundness": null,
       "seed": 1003,
-      "groupIds": ["file-icon"],
+      "groupIds": [
+        "file-icon"
+      ],
       "frameId": null,
       "index": "a2",
       "link": null,
       "locked": false,
       "points": [
-        [0, 0],
-        [25, 0]
+        [
+          0,
+          0
+        ],
+        [
+          25,
+          0
+        ]
       ],
-      "lastCommittedPoint": [25, 0],
+      "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "version": 12,
+      "versionNonce": 1089240824,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "folded-corner-line2",
       "type": "line",
-      "x": 380,
-      "y": 100,
+      "x": 379.421875,
+      "y": 100.2109375,
       "width": 0,
       "height": 25,
       "angle": 0,
@@ -111,26 +147,39 @@
       "opacity": 100,
       "roundness": null,
       "seed": 1004,
-      "groupIds": ["file-icon"],
+      "groupIds": [
+        "file-icon"
+      ],
       "frameId": null,
       "index": "a3",
       "link": null,
       "locked": false,
       "points": [
-        [0, 0],
-        [0, 25]
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          25
+        ]
       ],
-      "lastCommittedPoint": [0, 25],
+      "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "version": 12,
+      "versionNonce": 905043960,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "preview-window",
       "type": "rectangle",
-      "x": 220,
-      "y": 120,
+      "x": 219.421875,
+      "y": 120.2109375,
       "width": 140,
       "height": 100,
       "angle": 0,
@@ -146,24 +195,32 @@
         "value": 4
       },
       "seed": 1005,
-      "groupIds": ["file-icon", "preview"],
+      "groupIds": [
+        "file-icon",
+        "preview"
+      ],
       "frameId": null,
       "index": "a4",
       "link": null,
-      "locked": false
+      "locked": false,
+      "version": 12,
+      "versionNonce": 94576888,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "ocean-water",
       "type": "rectangle",
-      "x": 225,
-      "y": 180,
-      "width": 130,
-      "height": 35,
+      "x": 226.37109375,
+      "y": 180.2109375,
+      "width": 128.05078125,
+      "height": 33.16015624999999,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#1976d2",
       "fillStyle": "solid",
-      "strokeWidth": 0,
+      "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 0,
       "opacity": 100,
@@ -172,86 +229,122 @@
         "value": 2
       },
       "seed": 1006,
-      "groupIds": ["file-icon", "preview", "ocean"],
+      "groupIds": [
+        "file-icon",
+        "preview",
+        "ocean"
+      ],
       "frameId": null,
       "index": "a5",
       "link": null,
-      "locked": false
+      "locked": false,
+      "version": 52,
+      "versionNonce": 797196792,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "coastline-rock1",
       "type": "ellipse",
-      "x": 225,
-      "y": 125,
+      "x": 224.46484375,
+      "y": 125.21484375,
       "width": 45,
       "height": 55,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#8d6e63",
       "fillStyle": "solid",
-      "strokeWidth": 0,
+      "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "roundness": null,
       "seed": 1007,
-      "groupIds": ["file-icon", "preview", "rocks"],
+      "groupIds": [
+        "file-icon",
+        "preview",
+        "rocks"
+      ],
       "frameId": null,
       "index": "a6",
       "link": null,
-      "locked": false
+      "locked": false,
+      "version": 15,
+      "versionNonce": 580469496,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "coastline-rock2",
       "type": "ellipse",
-      "x": 285,
-      "y": 135,
+      "x": 284.46484375,
+      "y": 135.21484375,
       "width": 35,
       "height": 45,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#6d4c41",
       "fillStyle": "solid",
-      "strokeWidth": 0,
+      "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "roundness": null,
       "seed": 1008,
-      "groupIds": ["file-icon", "preview", "rocks"],
+      "groupIds": [
+        "file-icon",
+        "preview",
+        "rocks"
+      ],
       "frameId": null,
       "index": "a7",
       "link": null,
-      "locked": false
+      "locked": false,
+      "version": 15,
+      "versionNonce": 1298539512,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "coastline-rock3",
       "type": "ellipse",
-      "x": 320,
-      "y": 140,
+      "x": 319.46484375,
+      "y": 140.21484375,
       "width": 30,
       "height": 40,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#8d6e63",
       "fillStyle": "solid",
-      "strokeWidth": 0,
+      "strokeWidth": 2,
       "strokeStyle": "solid",
       "roughness": 1,
       "opacity": 100,
       "roundness": null,
       "seed": 1009,
-      "groupIds": ["file-icon", "preview", "rocks"],
+      "groupIds": [
+        "file-icon",
+        "preview",
+        "rocks"
+      ],
       "frameId": null,
       "index": "a8",
       "link": null,
-      "locked": false
+      "locked": false,
+      "version": 15,
+      "versionNonce": 770630904,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "magnifying-glass-handle",
       "type": "line",
-      "x": 320,
-      "y": 255,
+      "x": 319.421875,
+      "y": 255.2109375,
       "width": 20,
       "height": 20,
       "angle": 0,
@@ -266,26 +359,40 @@
         "type": 2
       },
       "seed": 1010,
-      "groupIds": ["file-icon", "magnifier"],
+      "groupIds": [
+        "file-icon",
+        "magnifier"
+      ],
       "frameId": null,
       "index": "a9",
       "link": null,
       "locked": false,
       "points": [
-        [0, 0],
-        [20, 20]
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          20
+        ]
       ],
-      "lastCommittedPoint": [20, 20],
+      "lastCommittedPoint": null,
       "startBinding": null,
       "endBinding": null,
       "startArrowhead": null,
-      "endArrowhead": null
+      "endArrowhead": null,
+      "version": 12,
+      "versionNonce": 1639417336,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "magnifying-glass-lens",
       "type": "ellipse",
-      "x": 300,
-      "y": 235,
+      "x": 299.421875,
+      "y": 235.2109375,
       "width": 25,
       "height": 25,
       "angle": 0,
@@ -298,17 +405,25 @@
       "opacity": 100,
       "roundness": null,
       "seed": 1011,
-      "groupIds": ["file-icon", "magnifier"],
+      "groupIds": [
+        "file-icon",
+        "magnifier"
+      ],
       "frameId": null,
       "index": "b0",
       "link": null,
-      "locked": false
+      "locked": false,
+      "version": 12,
+      "versionNonce": 902039288,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     },
     {
       "id": "png-text",
       "type": "text",
-      "x": 250,
-      "y": 290,
+      "x": 249.421875,
+      "y": 290.2109375,
       "width": 80,
       "height": 35,
       "angle": 0,
@@ -321,7 +436,9 @@
       "opacity": 100,
       "roundness": null,
       "seed": 1012,
-      "groupIds": ["file-icon"],
+      "groupIds": [
+        "file-icon"
+      ],
       "frameId": null,
       "index": "b1",
       "link": null,
@@ -335,38 +452,19 @@
       "containerId": null,
       "originalText": "PNG",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "version": 12,
+      "versionNonce": 915957752,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1757637320626
     }
   ],
   "appState": {
     "gridSize": 20,
     "gridStep": 5,
     "gridModeEnabled": false,
-    "viewBackgroundColor": "#ffffff",
-    "currentItemStrokeColor": "#1e1e1e",
-    "currentItemBackgroundColor": "transparent",
-    "currentItemFillStyle": "solid",
-    "currentItemStrokeWidth": 2,
-    "currentItemStrokeStyle": "solid",
-    "currentItemRoughness": 1,
-    "currentItemOpacity": 100,
-    "currentItemFontFamily": 1,
-    "currentItemFontSize": 20,
-    "currentItemTextAlign": "left",
-    "currentItemStartArrowhead": null,
-    "currentItemEndArrowhead": "arrow",
-    "scrollX": 0,
-    "scrollY": 0,
-    "zoom": {
-      "value": 1
-    },
-    "currentItemRoundness": "round",
-    "gridColor": {
-      "Bold": "#C9C9C9FF",
-      "Regular": "#EDEDEDFF"
-    },
-    "currentStrokeOptions": null,
-    "previousGridSize": null
+    "viewBackgroundColor": "#ffffff"
   },
   "files": {}
 }
