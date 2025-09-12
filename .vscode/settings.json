@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "35.239.33.227",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Workfx GCP",
+            "database": "postgres",
+            "password": "lM*8LKeDDjlosRYV",
+            "username": "postgres"
+        }
+    ]
+}
