@@ -137,7 +137,8 @@ async def check_for_slots(page, check_count):
             print("🎉 TIMESLOTS AVAILABLE!")
             message = f"Timeslots are now available for booking!\n\nURL: {TARGET_URL}"
             await send_pushover_notification(message, "🎉 Driving Test Slots Available!")
-            print("\n✓ Monitoring complete - slots found!")
+            print("\n✓ Slots found! Browser will remain open for booking.")
+            print("Press Ctrl+C to stop monitoring...")
             return True
         else:
             print("⏳ No timeslots available yet...")
@@ -176,7 +177,11 @@ async def check_page():
                 found_slots = await check_for_slots(page, check_count)
 
                 if found_slots:
-                    break
+                    # Slots found - stop refreshing and keep browser open
+                    print("\n🎯 Browser will remain open. Press Ctrl+C when done.")
+                    # Wait indefinitely until user closes
+                    while True:
+                        await asyncio.sleep(3600)  # Sleep for 1 hour intervals
 
                 # Wait before next check
                 print(f"  → Waiting {CHECK_INTERVAL} seconds before next check...")
