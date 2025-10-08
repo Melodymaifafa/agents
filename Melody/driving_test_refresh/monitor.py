@@ -5,6 +5,15 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 import httpx
 from dotenv import load_dotenv
+from config import (
+    BOOKING_ID,
+    FAMILY_NAME,
+    PREFERRED_DATE,
+    SUBURB,
+    SUBURB_DROPDOWN_OPTION,
+    CHECK_INTERVAL,
+    NO_SLOTS_TEXT,
+)
 
 # Load environment variables
 env_path = Path(__file__).parent.parent.parent / ".env"
@@ -13,8 +22,6 @@ load_dotenv(env_path)
 PUSHOVER_USER = os.getenv("PUSHOVER_USER")
 PUSHOVER_TOKEN = os.getenv("PUSHOVER_TOKEN")
 TARGET_URL = "https://www.myrta.com/wps/portal/extvp/myrta/licence/tbs/tbs-change/!ut/p/z1/hZBfT4MwFMU_kbsFHOAjf7bBHIOw0dm-LFXrrIOWQAX008s08cFkeN_Oye_cnByg8ABUsk6cmBZKsnLUhNpHFC0yXJiO4VrzEMXLwPGNNDOQZwGGww9y5TwEdPoDGfPOcZ0tsmQTuUYa342p202Qx2FirnILCqmaauyyAwr0jXVsmNWq0SXXM9YCMS-2qOpSPAmdqGdeAtHNO7_Ykg8aC94D4VLzJuSaibIdK9PJVvfWXwDtYhvFfoFT7FmGu_8HWNm_wPVd1kAflTp7e97q4JXJE4eDD6QPkHjpv2ednKWulu6wnXfbm3MefWYfXzzIDeE!/"
-CHECK_INTERVAL = 5  # seconds
-NO_SLOTS_TEXT = "There are no timeslots available for this week."
 
 
 async def send_pushover_notification(message: str, title: str = "Driving Test Alert"):
@@ -50,13 +57,13 @@ async def initial_login(page):
         # Fill in booking number
         print("  → Filling booking number...")
         booking_input = await page.wait_for_selector('input[name="bookingId"]', timeout=10000)
-        await booking_input.fill("2931865745")
+        await booking_input.fill(BOOKING_ID)
         await asyncio.sleep(0.5)
 
         # Fill in family name
         print("  → Filling family name...")
         surname_input = await page.wait_for_selector('input[name="surname"]', timeout=10000)
-        await surname_input.fill("Qi")
+        await surname_input.fill(FAMILY_NAME)
         await asyncio.sleep(0.5)
 
         # Wait 3 seconds after entering login details
@@ -75,6 +82,12 @@ async def initial_login(page):
         await change_location_button.click()
         await asyncio.sleep(2)
 
+        # Enter preferred date
+        print(f"  → Entering preferred date: {PREFERRED_DATE}...")
+        date_input = await page.wait_for_selector('input[name="preferredDateStr"]', timeout=10000)
+        await date_input.fill(PREFERRED_DATE)
+        await asyncio.sleep(0.5)
+
         # Click suburb radio button
         print("  → Selecting suburb search option...")
         suburb_radio = await page.wait_for_selector('input#rms_batLocPostSel[name="testHGroup"]', timeout=10000)
@@ -82,16 +95,16 @@ async def initial_login(page):
         await asyncio.sleep(1)
 
         # Enter suburb name letter by letter
-        print("  → Typing suburb 'lidcombe' letter by letter...")
+        print(f"  → Typing suburb '{SUBURB}' letter by letter...")
         suburb_input = await page.wait_for_selector('input#inputSuburbName', timeout=10000)
         await suburb_input.click()
-        await suburb_input.type("lidcombe", delay=100)  # 100ms delay between each keystroke
+        await suburb_input.type(SUBURB, delay=100)  # 100ms delay between each keystroke
         await asyncio.sleep(1)
 
-        # Wait for and click the dropdown option LIDCOMBE, 2141
-        print("  → Selecting LIDCOMBE, 2141 from dropdown...")
-        lidcombe_option = await page.wait_for_selector('li[id^="inputSuburbName_popup"]:has-text("LIDCOMBE, 2141")', timeout=10000)
-        await lidcombe_option.click()
+        # Wait for and click the dropdown option
+        print(f"  → Selecting {SUBURB_DROPDOWN_OPTION} from dropdown...")
+        suburb_option = await page.wait_for_selector(f'li[id^="inputSuburbName_popup"]:has-text("{SUBURB_DROPDOWN_OPTION}")', timeout=10000)
+        await suburb_option.click()
         await asyncio.sleep(1)
 
         # Click "Find a location" button
@@ -100,10 +113,11 @@ async def initial_login(page):
         await find_location_button.click()
         await asyncio.sleep(2)
 
-        # Select LIDCOMBE 2141 location radio button
-        print("  → Selecting LIDCOMBE 2141 location...")
-        lidcombe_location_radio = await page.wait_for_selector('input#rms_batLocLoc_601', timeout=10000)
-        await lidcombe_location_radio.click()
+        # Select location radio button by suburb name
+        print(f"  → Selecting {SUBURB_DROPDOWN_OPTION} location...")
+        # Find the label with the suburb name and click its associated radio button
+        location_label = await page.wait_for_selector(f'label:has-text("{SUBURB_DROPDOWN_OPTION}")', timeout=10000)
+        await location_label.click()
         await asyncio.sleep(1)
 
         # Click Next button
