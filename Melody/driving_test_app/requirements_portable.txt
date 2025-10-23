@@ -1,0 +1,12 @@
+# Portable version dependencies
+# 便携式版本依赖
+# All packages will be installed in ./venv/ folder
+# 所有包将安装在 ./venv/ 文件夹中
+
+# Core dependencies (minimal)
+# 核心依赖（最小化）
+playwright>=1.49.1
+httpx>=0.28.1
+
+# Note: tkinter is part of Python standard library, no installation needed
+# 注意: tkinter 是 Python 标准库的一部分，无需安装

@@ -1,0 +1,205 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║           🚗 DRIVING TEST MONITOR - START HERE 🚗                  ║
+║              驾考监控器 - 从这里开始                                  ║
+║                                                                    ║
+║              ✨ PORTABLE VERSION / 便携式版本 ✨                     ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+
+📖 重要提示 / IMPORTANT
+═══════════════════════════════════════════════════════════
+
+✅ 所有依赖都安装在项目文件夹内，不影响系统！
+✅ All dependencies installed in project folder, won't mess up your system!
+
+✅ 删除文件夹即可卸载，没有任何残留！
+✅ Uninstall by deleting folder, no leftovers!
+
+✅ 可以直接分享整个文件夹给朋友！
+✅ Can share entire folder with friends directly!
+
+
+🚀 快速开始 / QUICK START (2 步骤)
+═══════════════════════════════════════════════════════════
+
+步骤 1 / STEP 1: 安装 / Install
+─────────────────────────────────────────
+
+macOS/Linux:
+  chmod +x setup_portable.sh
+  ./setup_portable.sh
+
+Windows:
+  Double-click: setup_portable.bat
+  双击: setup_portable.bat
+
+⏱️  需要 2-3 分钟 / Takes 2-3 minutes
+📦 下载约 200MB 到此文件夹 / Downloads ~200MB to this folder
+
+
+步骤 2 / STEP 2: 运行 / Run
+─────────────────────────────────────────
+
+macOS/Linux:
+  ./start_monitor.sh
+
+Windows:
+  Double-click: start_monitor.bat
+  双击: start_monitor.bat
+
+🎉 GUI 界面会自动打开 / GUI will open automatically
+
+
+📁 安装后的文件夹结构 / Folder Structure After Install
+═══════════════════════════════════════════════════════════
+
+driving_test_app/
+├── venv/                    ← 所有依赖在这里 / All deps here
+│   ├── lib/                 ← Python 包 / Python packages
+│   └── playwright-browsers/ ← 浏览器文件 / Browser files
+├── app_gui.py               ← GUI 程序 / GUI app
+├── monitor_core.py          ← 核心逻辑 / Core logic
+├── start_monitor.sh/bat     ← 启动脚本 / Launcher
+└── setup_portable.sh/bat    ← 安装脚本 / Installer
+
+
+💡 使用提示 / Usage Tips
+═══════════════════════════════════════════════════════════
+
+1. 填写预订信息 / Fill booking info
+   - 预订号 / Booking ID
+   - 姓氏 / Family Name
+   - 日期 / Date (DD/MM/YYYY)
+   - 城市 / Suburb
+
+2. (可选) 填写 Pushover 通知 / (Optional) Pushover notifications
+   - 不填也能用 / Works without it
+   - 找到时浏览器会停留 / Browser stays open when found
+
+3. 点击"开始监控" / Click "Start Monitoring"
+
+4. 查看日志 / Watch logs
+
+5. 找到后立即预订 / Book immediately when found!
+
+
+🤝 分享给朋友 / Share with Friends
+═══════════════════════════════════════════════════════════
+
+方法 1 / Method 1 (推荐 / Recommended):
+
+  1. 压缩整个文件夹 / Zip entire folder
+     zip -r monitor.zip driving_test_app/
+
+  2. 发送给朋友 / Send to friends
+
+  3. 朋友解压后双击 start_monitor.sh/bat 即可运行！
+     Friends just double-click start_monitor.sh/bat to run!
+
+方法 2 / Method 2:
+
+  1. 只分享源文件（不包括 venv/）
+     Share only source files (exclude venv/)
+
+  2. 朋友运行 setup_portable.sh/bat
+     Friends run setup_portable.sh/bat
+
+  3. 依赖会自动下载到他们的文件夹
+     Dependencies auto-download to their folder
+
+
+🗑️ 卸载 / Uninstall
+═══════════════════════════════════════════════════════════
+
+超级简单 / Super Easy:
+
+  rm -rf driving_test_app/     (macOS/Linux)
+
+  或者直接删除文件夹 / Or just delete the folder
+
+就这么简单！ / That's it!
+
+
+📚 更多信息 / More Information
+═══════════════════════════════════════════════════════════
+
+详细文档 / Detailed docs:
+  → README_PORTABLE.md (完整指南 / Full guide)
+  → 使用说明.md (中文指南 / Chinese guide)
+
+
+❓ 常见问题 / FAQ
+═══════════════════════════════════════════════════════════
+
+Q: 会影响我的电脑吗？/ Will it mess up my computer?
+A: 不会！所有文件都在这个文件夹里。
+   No! Everything is in this folder only.
+
+Q: 如何卸载？/ How to uninstall?
+A: 直接删除文件夹即可。
+   Just delete the folder.
+
+Q: 文件夹有多大？/ How big is the folder?
+A: 约 250-300MB (包含浏览器)
+   About 250-300MB (includes browser)
+
+Q: 可以移动文件夹吗？/ Can I move the folder?
+A: 可以！完全便携。
+   Yes! Fully portable.
+
+Q: 需要管理员权限吗？/ Need admin rights?
+A: 不需要！
+   No!
+
+
+🎯 核心优势 / Key Advantages
+═══════════════════════════════════════════════════════════
+
+✅ 完全隔离 / Fully isolated
+   → 不影响系统 Python / Doesn't affect system Python
+   → 不污染系统目录 / Doesn't pollute system dirs
+
+✅ 易于分享 / Easy to share
+   → 压缩即可 / Just zip it
+   → 朋友解压即用 / Friends unzip and use
+
+✅ 简单卸载 / Simple uninstall
+   → 删除文件夹 / Delete folder
+   → 无残留 / No leftovers
+
+✅ 原生 GUI / Native GUI
+   → tkinter 界面 / tkinter interface
+   → 启动快速 / Fast startup
+   → 无需浏览器 / No browser needed
+
+
+🔐 隐私安全 / Privacy & Security
+═══════════════════════════════════════════════════════════
+
+✅ 所有数据在本地 / All data stays local
+✅ 不发送到任何服务器 / Nothing sent to servers (except MyRTA)
+✅ 开源代码可审查 / Open source, reviewable code
+✅ Pushover 仅用于通知 / Pushover only for notifications
+
+
+═══════════════════════════════════════════════════════════
+
+              现在开始 / START NOW:
+
+              1. 运行 setup_portable.sh/bat
+                 Run setup_portable.sh/bat
+
+              2. 运行 start_monitor.sh/bat
+                 Run start_monitor.sh/bat
+
+              3. 填写信息并开始监控！
+                 Fill info and start monitoring!
+
+═══════════════════════════════════════════════════════════
+
+                    🎉 祝您成功！🎉
+                  🎉 Good luck! 🎉
+
+═══════════════════════════════════════════════════════════
